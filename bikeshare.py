@@ -97,6 +97,7 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
 
+    # load data and add additional columns which are used for later analyzes.
     df = pd.read_csv(('{name}.csv').format(name=city))
     df['month'] = pd.to_datetime(df['Start Time']).dt.month
     df['weekday'] = pd.to_datetime(df['Start Time']).dt.dayofweek
@@ -220,8 +221,8 @@ def raw_data_output(df):
     df = df.drop(['month', 'weekday', 'hour', 'trip'], axis=1)
     df = df.reset_index(drop=True)
     while True:
-        raw_data = input('Would you like to see five rows of the raw data used for the evaluation? Enter yes or no.\n').lower()
-        if raw_data == 'yes':
+        print_raw_data = input('Would you like to see five rows of the raw data used for the evaluation? Enter yes or no.\n').lower()
+        if print_raw_data == 'yes':
             print(df.loc[rows:rows+4,:].to_string())
             rows += 5
         else:
