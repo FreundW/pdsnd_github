@@ -32,6 +32,10 @@ Following filters can be applied in the application:
 
 * 0.1 *15.04.2024*
     * Initial Release
+	
+## Authors
+
+The application was created by Wolfgang Freund during the Udacity course
 
 ## Acknowledgments
 
