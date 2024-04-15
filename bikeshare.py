@@ -82,10 +82,6 @@ def get_filters():
     if city == 'new york':
         city = 'new_york_city'
 
-    # mapping function moved to load data due to failed review.
-    #month = MONTH2NUM[month]
-    #day = DAY2NUM[day]
-
     return city, month, day
 
 
