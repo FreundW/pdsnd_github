@@ -1,17 +1,36 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Bikeshare Data Analyses
 
-### Date created
-Include the date you created this project and README file.
+The Bikeshare application is used to filter and analyze information provided by the different locations of Bikeshare.
 
-### Project Title
-Replace the Project Title
 
-### Description
-Describe what your project is about and what it does
+## Description
 
-### Files used
-Include the files used
+With this application the user data of different Bikeshare locations may be analyzed. For a more specific insight different filters may be applied.
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### Executing program
 
+To start the application run **bikeshare.py**
+```
+python bikeshare.py
+```
+
+### Overview of the different filters
+
+Following filters can be applied in the application:
+
+* Month
+	* Filter for the month the information shall be analyzed
+* Day
+	* Filter for the day the information shall be analyzed
+	
+> [!NOTE]
+> Multiselection for several months or multiple days is currently not possible.
+
+## Version History
+
+* 0.1 *15.04.2024*
+    * Initial Release
+
+## Acknowledgments
+
+This site was built using [GitHub Pages](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
