@@ -20,8 +20,10 @@ Following filters can be applied in the application:
 
 * Month
 	* Filter for the month the information shall be analyzed
+	* Available options: January, February, March, April, May, June
 * Day
 	* Filter for the day the information shall be analyzed
+	* Available options: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 	
 > [!NOTE]
 > Multiselection for several months or multiple days is currently not possible.
