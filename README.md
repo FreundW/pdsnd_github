@@ -35,7 +35,7 @@ Following filters can be applied in the application:
 	
 ## Authors
 
-The application was created by Wolfgang Freund during the Udacity course
+The application was created by Wolfgang Freund during the Udacity course.
 
 ## Acknowledgments
 
